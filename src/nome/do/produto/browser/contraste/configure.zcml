@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="nome.do.produto">
+
+  <!-- Scripts para contraste -->
+  <browser:resource
+      file="jquery.cookie.js"
+      name="jquery.cookie.js"
+      layer="nome.do.produto.interfaces.INomeDoProduto"
+      />
+
+  <browser:resource
+      file="contraste.js"
+      name="contraste.js"
+      layer="nome.do.produto.interfaces.INomeDoProduto"
+      />
+
+</configure>

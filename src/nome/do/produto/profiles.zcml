@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    i18n_domain="nome.do.produto">
+
+  <!-- Profiles -->
+  <gs:registerProfile
+      name="default"
+      title="nome.do.produto"
+      directory="profiles/default"
+      description="nome.do.produto"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
